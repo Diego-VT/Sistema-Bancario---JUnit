@@ -8,7 +8,7 @@ public class ContaTest {
     @Test
     void testSetNumeroValido() {
         final Conta instance = new Conta();
-        final String esperado = "12345-6";
+        final String esperado = "12345-9";
         instance.setNumero(esperado);
         final String obtido = instance.getNumero();
 
