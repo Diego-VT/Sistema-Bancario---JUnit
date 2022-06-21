@@ -3,6 +3,7 @@ package com.sistemabancario.model;
 /**
  * Classe com funções de uso geral.
  * @author Manoel Campos da Silva Filho
+ * Diego Vieira Torres
  */
 public final class Util {
     /**

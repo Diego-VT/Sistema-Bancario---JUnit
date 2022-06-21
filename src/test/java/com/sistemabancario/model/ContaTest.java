@@ -8,7 +8,7 @@ public class ContaTest {
     @Test
     void testSetNumeroValido() {
         final Conta instance = new Conta();
-        final String esperado = "12345-6";
+        final String esperado = "12345-9";
         instance.setNumero(esperado);
         final String obtido = instance.getNumero();
 
@@ -69,10 +69,22 @@ public class ContaTest {
         final double obtido = instance.getSaldoTotal();
         assertEquals(esperado, obtido);
     }
+    
+    
+    
 
     @Test
     void testAddMovimentacao() {
         //TODO: Você precisa implementar este teste
+        
+        Conta instance = new Conta();
+        Movimentacao mov = new Movimentacao(instance);
+        mov.setConfirmada(true);
+        mov.setTipo('C');
+        final double esperado = 100.50;
+        mov.setValor(esperado);
+        instance.addMovimentacao(mov);
+        assertEquals(esperado, instance.getSaldoTotal());
     }
 
 }
