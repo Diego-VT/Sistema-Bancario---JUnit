@@ -93,6 +93,9 @@ public class Conta implements Cadastro {
      */
     public void addMovimentacao(Movimentacao movimentacao) {
         // TODO: Você precisa implementar este método
+        if(movimentacao.isConfirmada()){
+            saldo += movimentacao.getValor();
+        }
     }
 
     /**
