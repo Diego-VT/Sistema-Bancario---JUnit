@@ -30,7 +30,7 @@ A documentação JavaDoc incluída no código fonte das classes informa como os 
 quais as regras de validação de atributos e outros detalhes.
 A partir destas definições apresentadas, pode-se então escrever os testes e o código dos métodos gerais, getters e setters das classes. Observe que estes dois últimos tipos de métodos não são mostrados no diagrama por simplificação.
 
-== Apresentações
+== Apresentaçõe
 
 Alguns conceitos relacionados a testes de software são mostrados nas apresentações abaixo:
 
